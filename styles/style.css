@@ -302,6 +302,28 @@ body{
    padding-top: 60px;
 }
 
+.container-customer{
+    max-width: 80%;
+    min-height: 60vh;
+    border-radius: 14px;
+    margin:80px auto 0px;
+}
+.customer-review{
+    display: flex;
+    gap:30px;
+    flex:1;
+}
+.customer-review img{
+    width:100%;
+    border-radius: 30px;
+}
+
+.review-heading{
+    font-weight: 800;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom:30px;
+}
 /* Mobile responsive */
 @media screen and (max-width:600px){
     .banner-title{

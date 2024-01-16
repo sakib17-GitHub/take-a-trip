@@ -62,6 +62,38 @@ body{
     padding-right: 10px;
 }
 
+/* Popular trips related style */
+.popular-trips{
+    max-width: 80%;
+    min-height: 60vh;
+    border-radius: 14px;
+    margin:80px auto; 
+    display: flex;
+    gap:50px;
+}
+
+.popular-trips-heading{
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.popular-trips-msg , .popular-trips-information>ul>li{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color:grey;
+}
+.popular-trips-information>ul>li{
+    margin-left:20px;
+}
+.popular-trips-information>button{
+    margin-left:0;
+}
+
+.popular-trips-image img{
+            height:100%;
+}
+
 @media screen and (max-width:600px){
     .banner-title{
         font-size: 2rem;
@@ -70,5 +102,14 @@ body{
         font-size: 0.9rem;
         margin: 0px 20px;
     }
+    .popular-trips-heading{
+        font-size: 2.2rem;
+    }
+    .popular-trips{
+        flex-direction: column;
+    }
+    .popular-trips-image img{
+        width:100%;
+}
 
 }

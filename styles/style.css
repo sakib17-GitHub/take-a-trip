@@ -381,4 +381,7 @@ body{
     .off h2{
             font-size: .9rem;
         }
+        .customer-review{
+            flex-direction: column;
+        }
 }

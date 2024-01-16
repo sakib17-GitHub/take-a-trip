@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Mulish', sans-serif;
+    margin:0;
+    padding:0;
+}
+
+
+/* Banner related style */
+.banner{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)),url("/images/grp1.png");
+    max-width: 80%;
+    min-height: 60vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 14px;
+    margin:50px auto; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.banner-title{
+    color:white;
+    font-size: 4rem;
+    font-weight: 900;
+    text-align: center;
+    padding: 40px 0px 20px 0px;
+}
+.banner-msg{
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.banner-input{
+    text-align: center;
+    width:80%;
+    padding: 20px 10px;
+    background-color: #ffffff54;
+    margin: 0px auto;
+    border-radius: 10px;
+}
+.banner-input input,select,button{
+    width: 160px;
+    padding: 15px 10px;
+    margin: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    color: grey;
+}
+.primary-btn{
+    background-color: #FF5400;
+    color:white;
+    cursor: pointer;
+}
+.fa-search{
+    padding-right: 10px;
+}
+
+@media screen and (max-width:600px){
+    .banner-title{
+        font-size: 2rem;
+    }
+    .banner-msg{
+        font-size: 0.9rem;
+        margin: 0px 20px;
+    }
+
+}

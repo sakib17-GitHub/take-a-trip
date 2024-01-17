@@ -7,7 +7,42 @@ body{
     margin:0;
     padding:0;
 }
+/* Nav related style */
+.nav-container{
+    max-width: 80%;
+    margin: 40px auto 0px auto;
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.nav-title{
+    display:flex;
+    justify-content: center;
+}
+.nav-title h1{
+    font-size: 2.5rem;
+    margin-left:20px;
+}
+.nav-title h1 span{
+    color:orangered;
+}
 
+.nav-menu ul{
+    display: flex;
+    gap:40px;
+    list-style: none;
+}
+.nav-menu ul li{
+    cursor: pointer;
+}
+.nav-menu ul li:nth-child(1){     
+            color:orangered;
+}
+.nav-icon{
+    display:none;
+}
 
 /* Banner related style */
 .banner{
@@ -399,6 +434,17 @@ fieldset{
 
 /* Mobile responsive */
 @media screen and (max-width:600px){
+    .nav-title h1{
+        font-size: 2rem;
+        margin-left:10px;
+    }
+    .nav-menu{
+        display:none;
+    }
+    .nav-icon{
+        display:block;
+    }
+    
     .banner-title{
         font-size: 2rem;
     }
